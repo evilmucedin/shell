@@ -14,7 +14,7 @@ fi
 export PROMPT_COMMAND='history -a; echo -ne "\033]0;${SUSER}${HOSTNAME%%.*}:${PWD}\007"'
 
 export CLICOLOR=1
-export PATH=~/bin/bin:$PATH:/sbin:/usr/sbin:/Berkanavt/bin/scripts
+export PATH=~/bin/bin:$PATH:/sbin:/usr/sbin:/Berkanavt/bin/scripts:~/.scripts
 export CVSROOT=tree.yandex.ru:/opt/CVSROOT
 export SVNROOT=svn+ssh://arcadia.yandex.ru/arc
 export SVNROOT_=svn+ssh://arcadia.yandex.ru/arc/trunk/arcadia
