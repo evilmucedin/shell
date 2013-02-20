@@ -1,0 +1,5 @@
+# escape \034\034
+startup_message off
+caption always
+caption string "%{kw}%-w%{wr}%n %t%{-}%+w"
+altscreen on
